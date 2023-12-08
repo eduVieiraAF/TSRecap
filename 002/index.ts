@@ -11,6 +11,8 @@ function order(request: string, count: number, tip: boolean) {
         console.log("Tip included")
         console.log(`Your total is $${(count * 14.99) * 1.15 }`)
     }
+
+    console.log(`Enjoy your ${request}`)
 }
 
 order(request, count, tip)
