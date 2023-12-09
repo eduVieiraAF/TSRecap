@@ -31,15 +31,6 @@ class Employee extends Person {
     }
 }
 
-class Student extends Person {
-    course: string
-
-    constructor(name: string, age: number, course: string) {
-        super(name, age)
-        this.course = course
-    }
-}
-
 let john = new Employee("John", 30, 1000, "Developer")
 john.position = "Pilot"
 
