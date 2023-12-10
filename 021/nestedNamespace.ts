@@ -1,4 +1,4 @@
-namespace Person {
+export namespace Person {
     export namespace Person1 {
         export let name: string = 'Eduardo'
     
